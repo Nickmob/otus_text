@@ -1,8 +1,8 @@
 # Работа с текстом
 
 # grep — поиск по регулярным выражениям
-grep -Rni ‘test’ .
-grep -v ‘test’ file.txt
+grep -Rni 'test' .
+grep -v 'test' file.txt
 ps afx | grep mysql
 # awk — полноценный язык обработки текста, удобен для разбиения строк
 awk -F ':' '{print $1}' /etc/passwd
